@@ -12,12 +12,12 @@ set -e
 
 
 echo "----------------------------------------------------------------------"
-echo "First edit 998-Setup_Git.sh file and write your own details"
+echo "First edit variables file and write your own details"
 echo "Don't continue if you haven't done it. Crtl+c to cancel"
 echo "----------------------------------------------------------------------"
-sleep 5s
+sleep 10s
 
-
-git config --global user.name "Name"
-git config --global user.email "email"
-sudo git config --system core.editor vim
+source variables
+git config --global user.name $name
+git config --global user.email $email
+sudo git config --system core.editor $EDITOR

@@ -1,0 +1,59 @@
+e------------------------------------------------------------
+#     System
+#------------------------------------------------------------
+# acpi
+# awesome-terminal-fonts
+# bc
+# clang
+# compton-tryone-git
+# feh
+git
+# gnome-alsamixer
+# imagemagick
+mpv
+neovim
+openssh
+# pavucontrol
+# pulseaudio
+# python-pywal
+# snapd
+# stow
+# systemd-resolvconf
+tlp
+wget
+# xorg-xbacklight
+# xorg-xinput
+# xorg-xrdb
+# #network-manager-applet-indicator
+zsh
+
+#------------------------------------------------------------
+#     Apps
+#------------------------------------------------------------
+# code
+# geoclue
+firefox
+# feh
+# flameshot
+# keepassxc
+# openssh
+# dunst
+# redshift
+# unclutter
+# variety
+# wireguard-arch
+# wireguard-tools
+
+#------------------------------------------------------------
+#     Fonts
+#------------------------------------------------------------
+# otf-fira-code
+# ttf-inconsolata
+# ttf-iosevka-term
+# ttf-ubuntu-font-family
+# ttf-bitstream-vera
+
+#------------------------------------------------------------
+#     Languages
+#------------------------------------------------------------
+# hunspell-es_es

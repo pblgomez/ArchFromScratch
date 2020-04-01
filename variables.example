@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e
+
+name="Pablo Gómez"
+email="pablogomez@pablogomez.com"
+EDITOR="vim"
