@@ -15,6 +15,6 @@ My installation from scratch
 As root:
 ```
 pacman -S sudo
-useradd -G wheel -m <USER>
+useradd -G sys,network,scanner,power,rfkill,users,video,uucp,storage,optical,lp,audio,wheel -m <USER>
 passwd <USER>
 ```
