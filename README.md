@@ -17,4 +17,5 @@ As root:
 pacman -S sudo
 useradd -G sys,network,scanner,power,rfkill,users,video,uucp,storage,optical,lp,audio,wheel -m <USER>
 passwd <USER>
+sudo sed 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/g' /etc/sudoers
 ```
