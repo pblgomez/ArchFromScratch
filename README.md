@@ -14,7 +14,7 @@ My installation from scratch
 
 As root:
 ```
-pacman -S sudo
+pacman -S sudo git base-devel
 useradd -G sys,network,scanner,power,rfkill,users,video,uucp,storage,optical,lp,audio,wheel -m <USER>
 passwd <USER>
 sudo sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/g' /etc/sudoers
