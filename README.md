@@ -19,3 +19,8 @@ useradd -G sys,network,scanner,power,rfkill,users,video,uucp,storage,optical,lp,
 passwd <USER>
 sudo sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/g' /etc/sudoers
 ```
+
+As user:
+```
+git clone https://github.com/pblgomez/ArchFromScratch.git
+```
