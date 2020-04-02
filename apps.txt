@@ -38,10 +38,11 @@ firefox
 # feh
 # flameshot
 # keepassxc
+imagemagic
 # openssh
 # dunst
 # redshift
-# unclutter
+unclutter
 # variety
 # wireguard-arch
 # wireguard-tools
