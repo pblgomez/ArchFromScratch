@@ -42,6 +42,7 @@ imagemagic
 # openssh
 # dunst
 # redshift
+termite
 unclutter
 # variety
 # wireguard-arch
