@@ -6,6 +6,10 @@ My installation from scratch
     ```
     wget archfi.sf.net/archfi
     ```
+    If SourceForge is down, use this instead:
+    ```
+    wget matmoul.github.io/archfi
+    ```
 1. Install Arch
     ```
     sh archfi
