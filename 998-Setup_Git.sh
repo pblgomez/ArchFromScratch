@@ -15,7 +15,7 @@ echo "----------------------------------------------------------------------"
 echo "First edit variables file and write your own details"
 echo "Don't continue if you haven't done it. Crtl+c to cancel"
 echo "----------------------------------------------------------------------"
-sleep 10s
+sleep 3s
 
 source variables
 git config --global user.name $name

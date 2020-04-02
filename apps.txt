@@ -21,11 +21,13 @@ openssh
 # systemd-resolvconf
 tlp
 wget
+xdg-user-dirs
 # xorg-xbacklight
 # xorg-xinput
 # xorg-xrdb
 # #network-manager-applet-indicator
 zsh
+zsh-syntax-highlighting
 
 #------------------------------------------------------------
 #     Apps
