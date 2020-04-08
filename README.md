@@ -21,7 +21,8 @@ As root:
 pacman -S sudo git base-devel
 useradd -G sys,network,scanner,power,rfkill,users,video,uucp,storage,optical,lp,audio,wheel -m <USER>
 passwd <USER>
-sed -i 's/# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/g' /etc/sudoers
+# Give sudoers permission
+sed -i 's/# %w.*) ALL$/%wheel ALL=(ALL) ALL/g' /etc/sudoers
 ```
 
 As user:
