@@ -23,6 +23,7 @@ then
   cd yay
   makepkg -si --needed --noconfirm
   if [ -d $ThisDir/yay ]; then rm -rfv $ThisDir/yay; fi
+  yay -Rsn go --noconfirm
 fi
 
 

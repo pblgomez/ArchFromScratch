@@ -2,7 +2,7 @@
 set -e
 
 # Installing packages
-yay -Syu --needed --noconfirm xorg-server xf86-video-intel xf86-video-vmware xorg-xinit \
+yay -Syu --needed --noconfirm xorg-server xf86-video-intel xorg-xinit \
 	gnu-free-fonts xrandr
 
 
