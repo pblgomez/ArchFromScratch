@@ -28,6 +28,7 @@ xdg-user-dirs
 # xorg-xinput
 # xorg-xrdb
 # #network-manager-applet-indicator
+sxhkd
 zsh
 zsh-autosuggestions
 zsh-completions
