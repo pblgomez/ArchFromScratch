@@ -12,6 +12,8 @@ git
 # imagemagick
 mpv
 neovim
+  neovim-drop-in
+  vim-plug
 openssh
 # pavucontrol
 # pulseaudio
