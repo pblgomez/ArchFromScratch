@@ -27,6 +27,9 @@ xdg-user-dirs
 # xorg-xrdb
 # #network-manager-applet-indicator
 zsh
+zsh-autosuggestions
+zsh-completions
+zsh-history-substring-search
 zsh-syntax-highlighting
 
 #------------------------------------------------------------

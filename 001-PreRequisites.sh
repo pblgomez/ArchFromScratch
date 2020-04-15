@@ -17,6 +17,9 @@ then
   git clone https://aur.archlinux.org/yay.git
   cd yay
   makepkg -si --needed --noconfirm
+  if [ -d yay ]; then
+    rm -rfv yay
+  fi
 fi
 
 
@@ -25,11 +28,4 @@ if ! hash yadm; then
   echo "     Installing git and yadm"
   echo "----------------------------------------------------------------------"
   yay -S --needed --noconfirm git yadm-git
-fi
-
-if [ -d yay ]; then
-  echo "----------------------------------------------------------------------"
-  echo "     Removing yay build folder"
-  echo "----------------------------------------------------------------------"
-  rm -rfv yay
 fi
